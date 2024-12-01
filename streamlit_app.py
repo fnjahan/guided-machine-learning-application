@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 
 st.title('🤖 Machine Learning Application')
-
+st.write('hihi)
 st.info('This is an application that builds a machine learning model!')
 
 # creates a dropdown with text 'Data' and shows 'Raw data' and csv file when clicked on drop down
