@@ -6,6 +6,7 @@ st.title('🤖 Machine Learning Application')
 
 st.write('Hello')
 
+
 st.info('This is an application that builds a machine learning model!')
 
 # creates a dropdown with text 'Data' and shows 'Raw data' and csv file when clicked on drop down
