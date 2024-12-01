@@ -116,7 +116,7 @@ st.dataframe(df_prediction_proba,
                   min_value=0,
                   max_value=1
                ),
-             }, hide_index=True)
+             })
 
 
 df_prediction_proba
