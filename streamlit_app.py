@@ -72,7 +72,7 @@ with st.expander('Data preparation'):
   st.write('**Encoded X (input penguin)**')
   input_row
   st.write('**Encoded y**')
-  y
+
 
 # Model Training and Inference
 ## Train the ML model
@@ -83,5 +83,5 @@ clf.fir(X, y)
 prediction = clf.predict(input_row)
 prediction_proba = clf.prediction_proba(input_row)
 
-
+prediction_proba
 
